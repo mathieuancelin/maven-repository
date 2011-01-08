@@ -1,0 +1,20 @@
+h1. Maven repository
+
+h2. Configuration
+
+To add this repository to your maven project, add the following lines :
+
+<pre>
+<code><repositories>
+  <repository>
+    <id>public-releases</id>
+    <url>http://github.com/mathieuancelin/maven-repository/tree/master/releases</url>
+  </repository>
+  <repository>
+    <id>public-snapshots</id>
+    <url>http://github.com/mathieuancelin/maven-repository/tree/master/snapshots</url>
+  </repository>
+</repositories></code>
+</pre>
+
+
